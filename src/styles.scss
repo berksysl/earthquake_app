@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
+
+body {
+  margin: 0; 
+  padding: 0;
+}
+
+.App {
+  font-size: 16px;
+  font-family: 'Inria Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  #heading {
+    background: rgb(0,0,0);
+    padding: 20px 0;
+    color: white;
+    margin-bottom: 0;
+  }
+  h4 {
+    margin-top: 10px;
+  }
+  h5 {
+    text-align: start;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}
+
+.container {
+  font-size: 16px;
+  border: 1px solid #EC1818;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+  background: rgb(121,9,9);
+background: linear-gradient(90deg, rgba(121,9,9,1) 15%, rgba(0,0,0,1) 90%);
+
+  .title {
+    margin: 5px auto;
+  }
+
+  .infos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    line-height: 10px;
+
+    .infobox1 {
+      text-align: start;
+      .size {
+        font-weight: bold;
+        
+      }
+    }
+    .infobox2 {
+      text-align: end;
+    }
+  }
+}
+
+footer {
+  margin-top: 40px;
+  padding: 30px 25px;
+  background: #000000;
+  color: white;
+}
